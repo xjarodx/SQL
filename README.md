@@ -1,1 +1,1 @@
-This repository contains the SQL homework assignment for UNC's Data Analytics program. This sql project demonstrates database creation, creating/altering tables, searching/selecting/updating data, and joining information from different tables. 
+This repository contains the SQL homework assignment for UNC's Data Analytics program. This sql project uses data from Sakila to demonstrate database creation, creating/altering tables, searching/selecting/updating data, and joining information from different tables. 
