@@ -4,11 +4,8 @@ Below are some examples.
 
 Joining to determine totals from different tables:
 ```
-SELECT staff.first_name, staff.last_name, SUM(payment.amount) 
-AS 'Total Amount', COUNT(payment.payment_date LIKE '2005-08%') 
-AS '# of August 2005 Transactions'FROM staff 
-INNER JOIN payment ON payment.staff_id=staff.staff_id 
-GROUP BY first_name;
+SELECT staff.first_name, staff.last_name, SUM(payment.amount) AS 'Total Amount', COUNT(payment.payment_date LIKE '2005-08%') AS '# of August 2005 Transactions'
+FROM staff INNER JOIN payment ON payment.staff_id=staff.staff_id GROUP BY first_name;
 ```
 
 Searching for items that start with specific letters and are a specific language:
