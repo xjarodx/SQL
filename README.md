@@ -1,1 +1,1 @@
-# SQL
+This repository contains the SQL homework assignment for UNC's Data Analytics program. This sql project demonstrates database creation, creating/altering tables, searching/selecting/updating data, and joining information from different tables. 
